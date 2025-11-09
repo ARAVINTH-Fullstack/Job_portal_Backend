@@ -148,13 +148,13 @@ REST_FRAMEWORK = {
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
-    "https://job-portal-frontend-ashy.vercel.app/",
+    "https://job-portal-frontend-ashy.vercel.app",
 
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173"
-    "https://job-portal-frontend-ashy.vercel.app/",
+    "https://job-portal-frontend-ashy.vercel.app",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
