@@ -33,7 +33,7 @@ SECRET_KEY = 'django-insecure-qx%&j7-e-aee(f12klteu@g%220x6n=$(q*-+o=ku5s5qtv2x5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["https://job-portal-frontend-ashy.vercel.app"]
 
 
 # Application definition
@@ -147,13 +147,11 @@ REST_FRAMEWORK = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:5173",
     "https://job-portal-frontend-ashy.vercel.app",
 
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
     "https://job-portal-frontend-ashy.vercel.app",
 ]
 
