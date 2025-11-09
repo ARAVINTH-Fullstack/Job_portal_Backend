@@ -31,7 +31,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-qx%&j7-e-aee(f12klteu@g%220x6n=$(q*-+o=ku5s5qtv2x5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["https://job-portal-frontend-ashy.vercel.app"]
 
